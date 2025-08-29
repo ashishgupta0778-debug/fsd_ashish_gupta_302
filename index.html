@@ -4,10 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td{
+            border:1px solid black;
+          
+        }
+        td{
+            background-color:wheat;
+        }
+        th,td{
+            /* border:11px solid black; */
+            border-radius:50px;
+            border-style: dashed;
+            padding: 20px;
+            padding-left: 40px;
+            border-spacing: 3px;
+        }
+        td:nth-child(even){
+            background-color:rgb(228, 73, 21);
+        }
+        th:nth-child(odd){
+            background-color: rgb(190, 19, 193);
+        }
+        td:hover{
+            background-color: deeppink;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hlw bachcho</h1>
-    <h2>Hlw bachcho</h2>
-    <h3>Hlw bachcho</h3>
+    <table>
+        <caption>Student Details</caption>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Roll no</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ashish</td>
+            <td>36</td>
+            <td>55</td>
+        </tr>
+    </table>
+
+    <!--list-->
+    <ul>
+        <li>chawal</li>
+        <li>Dal</li>
+        <li>Sabji</li>  
+    </ul>
+    <!--Description-->
+    <dl>
+        <dt>Coffee</dt>
+        <dt>Chay</dt>
+        
+    </dl>
 </body>
 </html>
